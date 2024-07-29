@@ -38,8 +38,10 @@ int main(int argc, char **argv)
 
 
 # 测试效果
+
 ## onnx 测试效果
-![test_onnx_result](https://github.com/user-attachments/assets/cff5c466-7f16-4b4c-a518-0fce14ca1d1d)
+
+![test_onnx_result](https://github.com/user-attachments/assets/00d58a00-1bf1-4ab1-9568-4ad65b362f8b)
 
 
 ## rk3588上测试效果
