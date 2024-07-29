@@ -208,7 +208,7 @@ int GetResultRectYolov8::GetConvDetectionResult(int8_t **pBlob, std::vector<int>
                         temp.xmax = xmax / input_w;
                         temp.ymax = ymax / input_h;
                         temp.classId = cls_index;
-                        temp.score = cls_val;
+                        temp.score = cls_max;
                         
 
                         for(int kc = 0; kc < keypoint_num; kc ++)
